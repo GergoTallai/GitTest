@@ -1,3 +1,30 @@
 # GitTest
-Test repository
-I learn about Git, commands, etc...
+Notes
+
+git init (git repository létrehozása)
+git status (mappa átvizsgálása, státusz adás)
+git add [+ tab] vagy * vagy -all vagy . (fájl hozzáadása a színpadhoz)
+git add *.txt (több fájl, bizonyos kiterjesztéssel)
+git commit -m "comment" (Comment mindig kell)
+git log (napló megnyitása)
+git remote add origin https://github.com/MaKiVerem4011/GitTest.git (“origin” egy név amiként mi hivatkozunk rá) 
+git push -u origin master (-u paraméter megjegyzi, hogy következőnek is originnek küldjük)
+git fetch 
+git diff master..origin/master (Megmutatja a különbséget)
+git pull origin master (leszedi a repository-ból)
+git pull origin master - - allow-unrelated-histories (hiba esetén)
+git config - - global user.name vagy user.email “” (megmutatja mi a beállított, macskakörmök között pedig állítható)
+git clone https://github.com/MaKiVerem4011/GitTest.git (Online létrehozott repository-t letölti)
+git diff HEAD (különbség a commitált és a saját verzió között)
+git diff - - stage (különbségek a színpadon lévőhöz képest)
+git diff --cached (megmutatja mi lesz commit-olva)
+git checkout - - red.txt (visszaállítja a központiból a fájlt)
+git reset red.txt (színpadról  visszahívja)
+git branch branch_name (branch létrehozása)
+git branch (megmutatja hogy melyik branchbe vagyunk)
+git merge branch_name (Összefűzi a két branch-t)
+git checkout branch_name (banch választás)
+git rm '*.txt' (fájlok törlése)
+git merge clean_up (ami ott van, MINDENT áthúz az aktuális branchbe)
+git config --get remote.origin.url (megmutatja melyik git repository url-re csatlakoztál)
+git gc (Tisztítás, tömörítés: .git könyvtárunk túl nagyra nőtt, vagy már felesleges objektumokat tartalmaz)
