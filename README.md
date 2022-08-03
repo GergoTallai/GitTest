@@ -28,3 +28,4 @@ git rm '*.txt' (fájlok törlése)
 git merge clean_up (ami ott van, MINDENT áthúz az aktuális branchbe)
 git config --get remote.origin.url (megmutatja melyik git repository url-re csatlakoztál)
 git gc (Tisztítás, tömörítés: .git könyvtárunk túl nagyra nőtt, vagy már felesleges objektumokat tartalmaz)
+
